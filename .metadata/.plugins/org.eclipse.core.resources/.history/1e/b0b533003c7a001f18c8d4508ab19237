@@ -1,0 +1,6 @@
+package com.microservice.Config;
+
+
+public class AppConfig {
+
+}

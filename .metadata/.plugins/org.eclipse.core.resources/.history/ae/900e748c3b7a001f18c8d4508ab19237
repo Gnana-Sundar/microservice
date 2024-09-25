@@ -1,0 +1,10 @@
+package com.microservice.Controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+
+public class UsersController {
+	@GetMapping("/user")
+	public String getProducts() {
+		return "Product page";
+	}
+}
